@@ -36,3 +36,15 @@ namespace HomeWork
     }
 }
 
+///Answer:
+/* 
+ using static System.Console;
+static void Main(string[] args)
+{
+ WriteLine("Enter a string:");
+ string myString = ReadLine();
+ myString = myString.Replace("no", "yes");
+ WriteLine($"Replaced \"no\" with \"yes\": {myString}");
+}
+*/
+

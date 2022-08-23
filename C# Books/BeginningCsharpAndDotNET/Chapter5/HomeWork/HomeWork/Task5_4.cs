@@ -24,3 +24,19 @@ namespace HomeWork
         }
     }
 }
+
+
+///Answer:
+/*using static System.Console;
+static void Main(string[] args)
+{
+ WriteLine("Enter a string:");
+ string myString = ReadLine();
+ string reversedString = "";
+ for (int index = myString.Length - 1; index >= 0; index--)
+ {
+ reversedString += myString[index];
+ }
+ WriteLine($"Reversed: {reversedString}");
+}
+*/

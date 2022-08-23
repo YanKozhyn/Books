@@ -3,7 +3,8 @@
 b. short to int
 c. bool to string
 d. byte to float*/
-/// Answer: a
+/// Answer: a 
+/// */Conversions a and c can’t be performed implicitly.\*
 
 //5.2 Show the code for a color enumeration based on the short type containing the colors
 //of the rainbow plus black and white. Can this enumeration be based on the byte type?
@@ -20,6 +21,8 @@ d. byte to float*/
 /// black = 9
 ///}
 /// Yes this can be based on byte type.
+ 
+/// */Perfect\*
 
 //5.3 Will the following code compile? Why or why not? 
 /* string[] blab = new string[5]
@@ -28,6 +31,8 @@ blab[5] = 5th string.*/
 /// No, this code can't comile, becouse second line is broke code.
 /// array only have 0,1,2,3,5 indexes. and 5 elements. 
 /// this arrays can't contain index of 5 in squad brackets
+
+/// */missed a semicolons in code snippet\*
 
 
 using System;

@@ -25,3 +25,28 @@ namespace HomeWork
         }
     }
 }
+
+///Answer:
+/*
+ using static System.Console;
+static void Main(string[] args)
+ {
+ WriteLine("Enter a string:");
+ string myString = ReadLine();
+ myString = "\"" + myString.Replace(" ", "\" \"") + "\"";
+ WriteLine($"Added double quotes around words: {myString}");
+ }
+Or using String.Split():
+using static System.Console;
+static void Main(string[] args)
+ {
+ WriteLine("Enter a string:");
+ string myString = ReadLine();
+ string[] myWords = myString.Split(' ');
+ WriteLine("Adding double quotes around words:");
+ foreach (string myWord in myWords)
+ {
+ Write($"\"{myWord}\" ");
+ }
+ }
+*/
