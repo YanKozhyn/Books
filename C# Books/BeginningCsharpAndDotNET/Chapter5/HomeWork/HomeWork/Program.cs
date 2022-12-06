@@ -29,7 +29,7 @@ d. byte to float*/
 blab[5] = 5th string.*/
 ///Answer:
 /// No, this code can't comile, becouse second line is broke code.
-/// array only have 0,1,2,3,5 indexes. and 5 elements. 
+/// array only have 0,1,2,3,4 indexes. and 5 elements. 
 /// this arrays can't contain index of 5 in squad brackets
 
 /// */missed a semicolons in code snippet\*
