@@ -6,8 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The first app in Beginning C# and .NET!");
-            Console.ReadKey();
+            int x = 2;int y = 1; y *= x++; x += y;
+            Console.WriteLine(x);
+            
         }
     }
 }
